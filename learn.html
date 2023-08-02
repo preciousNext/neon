@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="something.php" name="myForm" onsubmit="return validateForm()">
+      <label>
+        First Name
+        <input type="text" required />
+      </label>
+      <br />
+      <br />
+      <label
+        >Last Name
+        <input type="text" required />
+      </label>
+      <br />
+      <br />
+      <label
+        >New Password
+        <input type="password" name="password1" />
+      </label>
+      <br />
+      <br />
+      <label>
+        Confirm Password
+        <input type="password" name="password2" />
+        <div class="pass">
+          <p class="pp" style="color: red">*Check password and try again*</p>
+        </div>
+      </label>
+      <input type="submit" value="SUBMIT" />
+    </form>
+    <div class="icons">
+      <i class="fa-regular fa-thumbs-up"></i>
+      <i class="fa-solid fa-shield-dog"></i>
+      <i class="fa-solid fa-shield"></i>
+      <i class="fa-solid fa-chart-simple"></i>
+      <i class="fa-solid fa-diamond"></i>
+      <i class="fa-solid fa-gear"></i>
+      <i class="fa-solid fa-arrow-right"></i>
+
+      <i class="fa-solid fa-caret-down" id="dwn"></i>
+      <i class="fa-solid fa-shop"></i>
+    </div>
+    <script src="neon.js"></script>
+  </body>
+</html>
