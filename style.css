@@ -339,7 +339,7 @@
     text-align: center;
   }
   .end img {
-    width: 480px;
+    width: 280px;
     height: 190px;
     margin-top: 10px;
     margin-left: -10px;
@@ -413,7 +413,7 @@
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 200px;
+    width: 150px;
     border-radius: 10px;
     margin-left: 40px;
     margin-top: 20px;
@@ -424,9 +424,9 @@
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 200px;
+    width: 150px;
     border-radius: 10px;
-    margin-left: 10px;
+    margin-left: -30px;
     margin-top: 20px;
     cursor: pointer;
   }
@@ -435,9 +435,9 @@
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 200px;
+    width: 150px;
     border-radius: 10px;
-    margin-left: 40px;
+    margin-left: 30px;
     margin-top: 20px;
     cursor: pointer;
   }
@@ -446,8 +446,8 @@
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 200px;
-    margin-left: 10px;
+    width: 150px;
+    margin-left: -30px;
     border-radius: 10px;
     cursor: pointer;
     margin-top: 20px;
