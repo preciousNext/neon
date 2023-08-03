@@ -88,10 +88,10 @@
   section {
     background-color: #23143f;
     background-image: linear-gradient(#100427, #110a1c);
-    height: 1650vh;
+    height: 1600vh;
   }
   section img {
-    width: 400px;
+    width: 300px;
     margin-left: 70px;
 
     /* position: relative; */
@@ -109,13 +109,13 @@
     text-align: center;
     width: 40%;
     margin-left: 170px;
-    margin-top: -190px;
+    margin-top: -150px;
     font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   .gaming {
     margin-top: 1px;
-
+    margin-left: 100px;
     background-color: #ff8177;
     background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
     background-size: 100%;
@@ -128,23 +128,25 @@
   .ecosystem {
     margin-top: 5px;
     font-weight: lighter;
-    margin-left: 170px;
+    margin-left: 90px;
+    color: white;
 
-    background-color: #ff8177;
+    /* background-color: #ff8177;
     background-image: linear-gradient(to top, #dd28c5 0%, #fd2184 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; */
   }
   .join {
     margin-bottom: 70px;
+    margin-left: 100px;
     font-weight: lighter;
   }
   .community {
     margin-top: -60px;
-    padding-right: 30px;
+    margin-left: 80px;
     font-weight: lighter;
   }
   .web {
@@ -152,14 +154,14 @@
     font-weight: lighter;
     color: white;
     width: 70%;
-    margin-left: 90px;
+    margin-left: 20px;
   }
   .content2 p {
     text-align: center;
     color: white;
     margin-top: 40px;
     width: 50%;
-    margin-left: 140px;
+    margin-left: 70px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     font-weight: lighter;
@@ -169,7 +171,7 @@
     border-radius: 17px;
     background-image: linear-gradient(#800080, #8484d7ec);
     margin-top: 30px;
-    margin-left: 160px;
+    margin-left: 90px;
     width: 40%;
     border: none;
   }
@@ -191,9 +193,9 @@
   #buttonL {
     background-color: #100427;
     border: 1px solid purple;
-    padding: 10px 70px;
+    padding: 10px 60px;
     border-radius: 17px;
-    margin-left: 148px;
+    margin-left: 75px;
     margin-top: 25px;
   }
   #buttonL:hover {
@@ -207,11 +209,12 @@
   .content_grid {
     display: grid;
     width: 50%;
+
     grid-template-rows: 1fr, 2fr;
   }
   .links {
     background-color: black;
-    width: 90%;
+    width: 70%;
     height: 250px;
     margin: 20px auto;
     border-radius: 15px;
